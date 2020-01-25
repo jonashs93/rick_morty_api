@@ -1,7 +1,11 @@
 class Character < ApplicationResource
 
+  def order_episode
+    episode.sort
+  end
+
   def first_episode_id
-    episode.sort.first.match('\d+$').to_s
+    order_episode.first.match('\d+$').to_s
   end
 
   def first_episode
