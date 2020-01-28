@@ -1,5 +1,7 @@
 class Character < ApplicationResource
 
+  delegate :air_date, to: :first_episode, prefix: true, allow_nil: true
+
   def order_episode
     episode.sort
   end

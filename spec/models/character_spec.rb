@@ -5,6 +5,10 @@ RSpec.describe Character, type: :model do
 
   it { expect(described_class.superclass).to be ApplicationResource }
 
+  describe 'delegates' do
+    it { is_expected.to delegate_method(:air_date).to(:first_episode).with_prefix(true) }
+  end
+
   describe '#order_episode' do
     it 'static episodes' do
       subject.stub(:episode) { [ 8, 6, 9, 2, 5, 1, 12, 13 ] }
