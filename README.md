@@ -1,24 +1,38 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este projeto importa dados da API https://swapi.co/ e lista os registros utilizando para desenvolvimento do client-side VueJS e Ruby on Rails para server-side.
 
-Things you may want to cover:
+# Ricy and Morty API
 
-* Ruby version
+### Dependências
+------------
 
-* System dependencies
+- Ruby version 2.5.0+
+- Rails 6.0.0+
 
-* Configuration
+### Instalação
+------------
 
-* Database creation
+Instale as gems
 
-* Database initialization
+`bundle install`
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Execução
+------------
 
-* Deployment instructions
+Inicie o servidor
 
-* ...
+`rails s`
+
+A aplicação ficará disponível em
+
+http://localhost:3000/characters/1
+
+
+### Teste
+------------
+
+Para rodar os testes
+
+`bundle exec rspec`
