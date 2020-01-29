@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://rickandmortyapi.com/api/character/86
+    uri: https://rickandmortyapi.com/api/character/370
     body:
       encoding: US-ASCII
       string: ''
@@ -21,18 +21,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Content-Length:
-      - '525'
+      - '462'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - max-age=3600
       - public
       Date:
-      - Wed, 29 Jan 2020 03:02:02 GMT
+      - Wed, 29 Jan 2020 21:08:20 GMT
       Etag:
-      - W/"20d-zZAk6d5dr7tzPrRp/ctT4Z8O7Kk"
+      - W/"1ce-1XZHmMwkgZ7tvwk9pl0WG+vGgQU"
       Expires:
-      - Wed, 29 Jan 2020 04:02:02 GMT
+      - Wed, 29 Jan 2020 22:08:20 GMT
       Server:
       - Netlify
       X-Powered-By:
@@ -42,16 +42,563 @@ http_interactions:
       Connection:
       - keep-alive
       X-Nf-Request-Id:
-      - ddcf0879-11ff-482a-b90c-9a8256b8e824-1342263
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6798831
     body:
       encoding: UTF-8
-      string: '{"id":86,"name":"Cyclops Rick","status":"Dead","species":"Humanoid","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
-        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/86.jpeg","episode":["https://rickandmortyapi.com/api/episode/10","https://rickandmortyapi.com/api/episode/22","https://rickandmortyapi.com/api/episode/28"],"url":"https://rickandmortyapi.com/api/character/86","created":"2017-11-30T20:53:10.382Z"}'
+      string: '{"id":370,"name":"Two Guys with Handlebar Mustaches","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Interdimensional
+        Cable","url":"https://rickandmortyapi.com/api/location/6"},"image":"https://rickandmortyapi.com/api/character/avatar/370.jpeg","episode":["https://rickandmortyapi.com/api/episode/8"],"url":"https://rickandmortyapi.com/api/character/370","created":"2018-01-10T19:17:57.976Z"}'
     http_version: 
-  recorded_at: Wed, 29 Jan 2020 03:02:02 GMT
+  recorded_at: Wed, 29 Jan 2020 21:08:20 GMT
 - request:
     method: get
-    uri: https://rickandmortyapi.com/api/character/371
+    uri: https://rickandmortyapi.com/api/character/209
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '444'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:21 GMT
+      Etag:
+      - W/"1bc-RtkaMgkiZNUGv+wJAjbih8WUZRo"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:21 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6799001
+    body:
+      encoding: UTF-8
+      string: '{"id":209,"name":"Long Sleeved Morty","status":"unknown","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
+        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/209.jpeg","episode":["https://rickandmortyapi.com/api/episode/10"],"url":"https://rickandmortyapi.com/api/character/209","created":"2017-12-30T14:00:06.755Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:21 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/40
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '477'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:22 GMT
+      Etag:
+      - W/"1dd-AVUdNJLhOC9dIgSqk78wSheJEpM"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:22 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6799287
+    body:
+      encoding: UTF-8
+      string: '{"id":40,"name":"Beth''s Mytholog","status":"Dead","species":"Mytholog","type":"","gender":"Female","origin":{"name":"Nuptia
+        4","url":"https://rickandmortyapi.com/api/location/13"},"location":{"name":"Nuptia
+        4","url":"https://rickandmortyapi.com/api/location/13"},"image":"https://rickandmortyapi.com/api/character/avatar/40.jpeg","episode":["https://rickandmortyapi.com/api/episode/18"],"url":"https://rickandmortyapi.com/api/character/40","created":"2017-11-05T10:02:26.701Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:22 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/39
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '526'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:04:37 GMT
+      Etag:
+      - W/"20e-/fk9NLWA/lc7RgcPUWJ/jjT8XLk"
+      Expires:
+      - Wed, 29 Jan 2020 22:04:37 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '225'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6799563
+    body:
+      encoding: UTF-8
+      string: '{"id":39,"name":"Beth Smith","status":"Alive","species":"Human","type":"","gender":"Female","origin":{"name":"Earth
+        (Evil Rick''s Target Dimension)","url":"https://rickandmortyapi.com/api/location/34"},"location":{"name":"Earth
+        (Evil Rick''s Target Dimension)","url":"https://rickandmortyapi.com/api/location/34"},"image":"https://rickandmortyapi.com/api/character/avatar/39.jpeg","episode":["https://rickandmortyapi.com/api/episode/10"],"url":"https://rickandmortyapi.com/api/character/39","created":"2017-11-05T09:52:31.777Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:22 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/369
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '496'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:23 GMT
+      Etag:
+      - W/"1f0-IzHOwikcF61q1mfIL7iL+9TBTas"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:23 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6800145
+    body:
+      encoding: UTF-8
+      string: '{"id":369,"name":"Tusked Assassin","status":"unknown","species":"Alien","type":"Tuskfish","gender":"Male","origin":{"name":"Resort
+        Planet","url":"https://rickandmortyapi.com/api/location/37"},"location":{"name":"Resort
+        Planet","url":"https://rickandmortyapi.com/api/location/37"},"image":"https://rickandmortyapi.com/api/character/avatar/369.jpeg","episode":["https://rickandmortyapi.com/api/episode/26"],"url":"https://rickandmortyapi.com/api/character/369","created":"2018-01-10T19:17:00.093Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:23 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/71
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      - public
+      Content-Length:
+      - '491'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Jan 2020 21:08:29 GMT
+      Etag:
+      - W/"1eb-FW95DLaoi+6DtuhmxCH+wwFYxTc"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:29 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6802329
+    body:
+      encoding: UTF-8
+      string: '{"id":71,"name":"Conroy","status":"Dead","species":"Robot","type":"","gender":"unknown","origin":{"name":"Earth
+        (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"location":{"name":"Earth
+        (C-137)","url":"https://rickandmortyapi.com/api/location/1"},"image":"https://rickandmortyapi.com/api/character/avatar/71.jpeg","episode":["https://rickandmortyapi.com/api/episode/22"],"url":"https://rickandmortyapi.com/api/character/71","created":"2017-11-30T11:35:50.183Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:29 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/250
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      - public
+      Content-Length:
+      - '517'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Jan 2020 21:08:29 GMT
+      Etag:
+      - W/"205-iRNMnUaGNDYTInUgWgm8rrX3H1g"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:29 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6802572
+    body:
+      encoding: UTF-8
+      string: '{"id":250,"name":"Mrs. Sullivan","status":"Dead","species":"Human","type":"Cat
+        controlled dead lady","gender":"Female","origin":{"name":"Earth (C-500A)","url":"https://rickandmortyapi.com/api/location/23"},"location":{"name":"Interdimensional
+        Cable","url":"https://rickandmortyapi.com/api/location/6"},"image":"https://rickandmortyapi.com/api/character/avatar/250.jpeg","episode":["https://rickandmortyapi.com/api/episode/8"],"url":"https://rickandmortyapi.com/api/character/250","created":"2017-12-30T18:24:49.372Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:29 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/378
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '460'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:30 GMT
+      Etag:
+      - W/"1cc-9rGqNmsw7ECEcuLjAiWCs+ooj/M"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:30 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6802802
+    body:
+      encoding: UTF-8
+      string: '{"id":378,"name":"Wall Crawling Rick","status":"unknown","species":"Humanoid","type":"Lizard-Person","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
+        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/378.jpeg","episode":["https://rickandmortyapi.com/api/episode/22"],"url":"https://rickandmortyapi.com/api/character/378","created":"2018-01-10T19:33:30.804Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:30 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '1404'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:30 GMT
+      Etag:
+      - W/"57c-Qg6T+mU134U0BrGOKixmzbC7Vz0"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:30 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '2'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6803064
+    body:
+      encoding: UTF-8
+      string: '{"id":5,"name":"Jerry Smith","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"Earth
+        (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"location":{"name":"Earth
+        (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"image":"https://rickandmortyapi.com/api/character/avatar/5.jpeg","episode":["https://rickandmortyapi.com/api/episode/6","https://rickandmortyapi.com/api/episode/7","https://rickandmortyapi.com/api/episode/8","https://rickandmortyapi.com/api/episode/9","https://rickandmortyapi.com/api/episode/10","https://rickandmortyapi.com/api/episode/11","https://rickandmortyapi.com/api/episode/12","https://rickandmortyapi.com/api/episode/13","https://rickandmortyapi.com/api/episode/14","https://rickandmortyapi.com/api/episode/15","https://rickandmortyapi.com/api/episode/16","https://rickandmortyapi.com/api/episode/18","https://rickandmortyapi.com/api/episode/19","https://rickandmortyapi.com/api/episode/20","https://rickandmortyapi.com/api/episode/21","https://rickandmortyapi.com/api/episode/22","https://rickandmortyapi.com/api/episode/23","https://rickandmortyapi.com/api/episode/26","https://rickandmortyapi.com/api/episode/29","https://rickandmortyapi.com/api/episode/30","https://rickandmortyapi.com/api/episode/31"],"url":"https://rickandmortyapi.com/api/character/5","created":"2017-11-04T19:26:56.301Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:31 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/328
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '433'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:31 GMT
+      Etag:
+      - W/"1b1-T8anr9ZdN5gAKN6E7DXJ+7tpuC4"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:31 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6803373
+    body:
+      encoding: UTF-8
+      string: '{"id":328,"name":"Slow Rick","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
+        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/328.jpeg","episode":["https://rickandmortyapi.com/api/episode/28"],"url":"https://rickandmortyapi.com/api/character/328","created":"2018-01-10T16:14:16.331Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:31 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/230
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      - public
+      Content-Length:
+      - '529'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Jan 2020 21:08:32 GMT
+      Etag:
+      - W/"211-diEceXkr4GhUErNTHQJPSx08qvQ"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:32 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6803676
+    body:
+      encoding: UTF-8
+      string: '{"id":230,"name":"Morty Jr.","status":"Alive","species":"Humanoid","type":"Human
+        Gazorpian","gender":"Male","origin":{"name":"Earth (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"location":{"name":"Earth
+        (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"image":"https://rickandmortyapi.com/api/character/avatar/230.jpeg","episode":["https://rickandmortyapi.com/api/episode/7"],"url":"https://rickandmortyapi.com/api/character/230","created":"2017-12-30T16:20:51.391Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:32 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/175
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '744'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:37 GMT
+      Etag:
+      - W/"2e8-yfFCkc8DCx+ZT2VozrBKcpOmr3w"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:37 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6806442
+    body:
+      encoding: UTF-8
+      string: '{"id":175,"name":"Jerry Smith","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"Earth
+        (C-137)","url":"https://rickandmortyapi.com/api/location/1"},"location":{"name":"Earth
+        (C-137)","url":"https://rickandmortyapi.com/api/location/1"},"image":"https://rickandmortyapi.com/api/character/avatar/175.jpeg","episode":["https://rickandmortyapi.com/api/episode/1","https://rickandmortyapi.com/api/episode/2","https://rickandmortyapi.com/api/episode/3","https://rickandmortyapi.com/api/episode/4","https://rickandmortyapi.com/api/episode/5","https://rickandmortyapi.com/api/episode/6","https://rickandmortyapi.com/api/episode/22"],"url":"https://rickandmortyapi.com/api/character/175","created":"2017-12-29T18:07:17.610Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:37 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/168
     body:
       encoding: US-ASCII
       string: ''
@@ -77,11 +624,59 @@ http_interactions:
       - max-age=3600
       - public
       Date:
-      - Wed, 29 Jan 2020 03:02:03 GMT
+      - Wed, 29 Jan 2020 21:08:38 GMT
       Etag:
-      - W/"1e3-tcL6rPJlxxr5rBlxdbjFDlKCfGk"
+      - W/"1e3-YhoUCFqrm3o2yyYiSl/jCOvvQik"
       Expires:
-      - Wed, 29 Jan 2020 04:02:03 GMT
+      - Wed, 29 Jan 2020 22:08:38 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6806773
+    body:
+      encoding: UTF-8
+      string: '{"id":168,"name":"Jackie","status":"Alive","species":"Alien","type":"Gazorpian","gender":"Female","origin":{"name":"Gazorpazorp","url":"https://rickandmortyapi.com/api/location/40"},"location":{"name":"Gazorpazorp","url":"https://rickandmortyapi.com/api/location/40"},"image":"https://rickandmortyapi.com/api/character/avatar/168.jpeg","episode":["https://rickandmortyapi.com/api/episode/7"],"url":"https://rickandmortyapi.com/api/character/168","created":"2017-12-29T17:14:03.430Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:38 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/69
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '434'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:38 GMT
+      Etag:
+      - W/"1b2-jKgqF/9Dd4jCdP7WLqbCs+6bmoU"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:38 GMT
       Server:
       - Netlify
       X-Powered-By:
@@ -91,15 +686,1199 @@ http_interactions:
       Connection:
       - keep-alive
       X-Nf-Request-Id:
-      - ddcf0879-11ff-482a-b90c-9a8256b8e824-1342415
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6806948
     body:
       encoding: UTF-8
-      string: '{"id":371,"name":"Tumblorkian","status":"Alive","species":"Alien","type":"Tumblorkian","gender":"Male","origin":{"name":"Plopstar","url":"https://rickandmortyapi.com/api/location/66"},"location":{"name":"Plopstar","url":"https://rickandmortyapi.com/api/location/66"},"image":"https://rickandmortyapi.com/api/character/avatar/371.jpeg","episode":["https://rickandmortyapi.com/api/episode/19"],"url":"https://rickandmortyapi.com/api/character/371","created":"2018-01-10T19:18:44.560Z"}'
+      string: '{"id":69,"name":"Commander Rick","status":"Dead","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
+        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/69.jpeg","episode":["https://rickandmortyapi.com/api/episode/22"],"url":"https://rickandmortyapi.com/api/character/69","created":"2017-11-30T11:28:06.461Z"}'
     http_version: 
-  recorded_at: Wed, 29 Jan 2020 03:02:03 GMT
+  recorded_at: Wed, 29 Jan 2020 21:08:38 GMT
 - request:
     method: get
-    uri: https://rickandmortyapi.com/api/character/48
+    uri: https://rickandmortyapi.com/api/character/33
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '470'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:39 GMT
+      Etag:
+      - W/"1d6-crkll8gUxiHPpRhPBV1oyINa+vI"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:39 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6807246
+    body:
+      encoding: UTF-8
+      string: '{"id":33,"name":"Beebo","status":"Dead","species":"Alien","type":"","gender":"Male","origin":{"name":"Venzenulon
+        7","url":"https://rickandmortyapi.com/api/location/10"},"location":{"name":"Venzenulon
+        7","url":"https://rickandmortyapi.com/api/location/10"},"image":"https://rickandmortyapi.com/api/character/avatar/33.jpeg","episode":["https://rickandmortyapi.com/api/episode/29"],"url":"https://rickandmortyapi.com/api/character/33","created":"2017-11-05T09:21:55.595Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:39 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/253
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      - public
+      Content-Length:
+      - '446'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Jan 2020 21:08:39 GMT
+      Etag:
+      - W/"1be-8sr5D5039/vxScgNtYuFYP8aNlg"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:39 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6807533
+    body:
+      encoding: UTF-8
+      string: '{"id":253,"name":"Numbericon","status":"unknown","species":"Alien","type":"Numbericon","gender":"unknown","origin":{"name":"unknown","url":""},"location":{"name":"Alphabetrium","url":"https://rickandmortyapi.com/api/location/43"},"image":"https://rickandmortyapi.com/api/character/avatar/253.jpeg","episode":["https://rickandmortyapi.com/api/episode/16"],"url":"https://rickandmortyapi.com/api/character/253","created":"2017-12-31T13:04:01.585Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:40 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/54
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '440'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:40 GMT
+      Etag:
+      - W/"1b8-J+zZGxHw6KWE+90xOi7RgVN0ZBI"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:40 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6807738
+    body:
+      encoding: UTF-8
+      string: '{"id":54,"name":"Bobby Moynihan","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Interdimensional
+        Cable","url":"https://rickandmortyapi.com/api/location/6"},"image":"https://rickandmortyapi.com/api/character/avatar/54.jpeg","episode":["https://rickandmortyapi.com/api/episode/8"],"url":"https://rickandmortyapi.com/api/character/54","created":"2017-11-05T11:31:26.348Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:40 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/294
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '494'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:09:08 GMT
+      Etag:
+      - W/"1ee-Q+LDBO7BgVeByk0E00G4BU/7tPw"
+      Expires:
+      - Wed, 29 Jan 2020 22:09:08 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '2'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6820213
+    body:
+      encoding: UTF-8
+      string: '{"id":294,"name":"Ricktiminus Sancheziminius","status":"Dead","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
+        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/294.jpeg","episode":["https://rickandmortyapi.com/api/episode/10","https://rickandmortyapi.com/api/episode/22"],"url":"https://rickandmortyapi.com/api/character/294","created":"2017-12-31T20:24:30.396Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:09:09 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      - public
+      Content-Length:
+      - '492'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Jan 2020 21:09:09 GMT
+      Etag:
+      - W/"1ec-FNpVzJs9mFLlhhRaHsQYBGPGAMg"
+      Expires:
+      - Wed, 29 Jan 2020 22:09:09 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6820465
+    body:
+      encoding: UTF-8
+      string: '{"id":21,"name":"Aqua Morty","status":"unknown","species":"Humanoid","type":"Fish-Person","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
+        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/21.jpeg","episode":["https://rickandmortyapi.com/api/episode/10","https://rickandmortyapi.com/api/episode/22"],"url":"https://rickandmortyapi.com/api/character/21","created":"2017-11-04T22:39:48.055Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:09:09 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/207
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '542'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:05 GMT
+      Etag:
+      - W/"21e-j8bM6bxlPqZR/84m839IqfFyv6U"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:05 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '66'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6820692
+    body:
+      encoding: UTF-8
+      string: '{"id":207,"name":"Loggins","status":"Alive","species":"Alien","type":"Alligator-Person","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Interdimensional
+        Cable","url":"https://rickandmortyapi.com/api/location/6"},"image":"https://rickandmortyapi.com/api/character/avatar/207.jpeg","episode":["https://rickandmortyapi.com/api/episode/8","https://rickandmortyapi.com/api/episode/13","https://rickandmortyapi.com/api/episode/17"],"url":"https://rickandmortyapi.com/api/character/207","created":"2017-12-30T13:54:28.627Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:09:09 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/259
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      - public
+      Content-Length:
+      - '465'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Jan 2020 21:09:10 GMT
+      Etag:
+      - W/"1d1-yo3XqTByLqkLiHWUwbEVKj+ZBg0"
+      Expires:
+      - Wed, 29 Jan 2020 22:09:10 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6820812
+    body:
+      encoding: UTF-8
+      string: '{"id":259,"name":"Pencilvester","status":"Dead","species":"Alien","type":"Parasite,
+        Pencil","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Earth
+        (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"image":"https://rickandmortyapi.com/api/character/avatar/259.jpeg","episode":["https://rickandmortyapi.com/api/episode/15"],"url":"https://rickandmortyapi.com/api/character/259","created":"2017-12-31T13:33:48.488Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:09:10 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/179
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      - public
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Jan 2020 21:09:11 GMT
+      Etag:
+      - W/"23a-WWnbZ07wJO0Zto2l7HQ4b25ZbvI"
+      Expires:
+      - Wed, 29 Jan 2020 22:09:11 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6821025
+    body:
+      encoding: UTF-8
+      string: '{"id":179,"name":"Jessica","status":"Alive","species":"Cronenberg","type":"","gender":"Female","origin":{"name":"Earth
+        (C-137)","url":"https://rickandmortyapi.com/api/location/1"},"location":{"name":"Earth
+        (C-137)","url":"https://rickandmortyapi.com/api/location/1"},"image":"https://rickandmortyapi.com/api/character/avatar/179.jpeg","episode":["https://rickandmortyapi.com/api/episode/1","https://rickandmortyapi.com/api/episode/4","https://rickandmortyapi.com/api/episode/6"],"url":"https://rickandmortyapi.com/api/character/179","created":"2017-12-29T18:34:37.806Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:09:11 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/307
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '478'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:09:11 GMT
+      Etag:
+      - W/"1de-Fq80XrYexyki5+UkZ84cN/4YECE"
+      Expires:
+      - Wed, 29 Jan 2020 22:09:11 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6821330
+    body:
+      encoding: UTF-8
+      string: '{"id":307,"name":"Scroopy Noopers","status":"Alive","species":"Alien","type":"Plutonian","gender":"Male","origin":{"name":"Pluto","url":"https://rickandmortyapi.com/api/location/47"},"location":{"name":"Pluto","url":"https://rickandmortyapi.com/api/location/47"},"image":"https://rickandmortyapi.com/api/character/avatar/307.jpeg","episode":["https://rickandmortyapi.com/api/episode/9"],"url":"https://rickandmortyapi.com/api/character/307","created":"2018-01-05T14:20:41.693Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:09:11 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/77
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '433'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:09:59 GMT
+      Etag:
+      - W/"1b1-QiATidvlIIaJ2nDttG/+hPHn7Kg"
+      Expires:
+      - Wed, 29 Jan 2020 22:09:59 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6841465
+    body:
+      encoding: UTF-8
+      string: '{"id":77,"name":"Cowboy Morty","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
+        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/77.jpeg","episode":["https://rickandmortyapi.com/api/episode/10"],"url":"https://rickandmortyapi.com/api/character/77","created":"2017-11-30T14:13:17.371Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:09:59 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/78
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      - public
+      Content-Length:
+      - '477'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Jan 2020 21:10:00 GMT
+      Etag:
+      - W/"1dd-8A68RmnJihfIbUrEaypkX/JEsAI"
+      Expires:
+      - Wed, 29 Jan 2020 22:10:00 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6841642
+    body:
+      encoding: UTF-8
+      string: '{"id":78,"name":"Cowboy Rick","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
+        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/78.jpeg","episode":["https://rickandmortyapi.com/api/episode/10","https://rickandmortyapi.com/api/episode/28"],"url":"https://rickandmortyapi.com/api/character/78","created":"2017-11-30T14:15:18.347Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:10:00 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/132
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '477'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:10:00 GMT
+      Etag:
+      - W/"1dd-lKrShAg7eABcsJVGYDexOT6X8yE"
+      Expires:
+      - Wed, 29 Jan 2020 22:10:00 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6841924
+    body:
+      encoding: UTF-8
+      string: '{"id":132,"name":"Gar''s Mytholog","status":"Dead","species":"Mytholog","type":"","gender":"Male","origin":{"name":"Nuptia
+        4","url":"https://rickandmortyapi.com/api/location/13"},"location":{"name":"Nuptia
+        4","url":"https://rickandmortyapi.com/api/location/13"},"image":"https://rickandmortyapi.com/api/character/avatar/132.jpeg","episode":["https://rickandmortyapi.com/api/episode/18"],"url":"https://rickandmortyapi.com/api/character/132","created":"2017-12-26T20:02:38.033Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:10:00 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/342
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      - public
+      Content-Length:
+      - '499'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Jan 2020 21:10:01 GMT
+      Etag:
+      - W/"1f3-5dnp0S1ZxqzQhDbCfTfAdbvuGFk"
+      Expires:
+      - Wed, 29 Jan 2020 22:10:01 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6842158
+    body:
+      encoding: UTF-8
+      string: '{"id":342,"name":"Taint Washer","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"Post-Apocalyptic
+        Earth","url":"https://rickandmortyapi.com/api/location/8"},"location":{"name":"Post-Apocalyptic
+        Earth","url":"https://rickandmortyapi.com/api/location/8"},"image":"https://rickandmortyapi.com/api/character/avatar/342.jpeg","episode":["https://rickandmortyapi.com/api/episode/23"],"url":"https://rickandmortyapi.com/api/character/342","created":"2018-01-10T17:23:26.944Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:10:01 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/153
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      - public
+      Content-Length:
+      - '550'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Jan 2020 21:10:01 GMT
+      Etag:
+      - W/"226-BW9QbUS0q1/7t1P1YKiOwpxJ/ec"
+      Expires:
+      - Wed, 29 Jan 2020 22:10:01 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '2'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6842374
+    body:
+      encoding: UTF-8
+      string: '{"id":153,"name":"Hamster In Butt","status":"Alive","species":"Animal","type":"","gender":"unknown","origin":{"name":"Hamster
+        in Butt World","url":"https://rickandmortyapi.com/api/location/41"},"location":{"name":"Hamster
+        in Butt World","url":"https://rickandmortyapi.com/api/location/41"},"image":"https://rickandmortyapi.com/api/character/avatar/153.jpeg","episode":["https://rickandmortyapi.com/api/episode/8","https://rickandmortyapi.com/api/episode/19"],"url":"https://rickandmortyapi.com/api/character/153","created":"2017-12-29T15:27:54.281Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:10:02 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/212
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '487'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:10:02 GMT
+      Etag:
+      - W/"1e7-pQUJrCWCUJGfjACM18nahH6+DaM"
+      Expires:
+      - Wed, 29 Jan 2020 22:10:02 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6842786
+    body:
+      encoding: UTF-8
+      string: '{"id":212,"name":"Magma-Q","status":"Dead","species":"Alien","type":"Alphabetrian","gender":"Male","origin":{"name":"Alphabetrium","url":"https://rickandmortyapi.com/api/location/43"},"location":{"name":"Alphabetrium","url":"https://rickandmortyapi.com/api/location/43"},"image":"https://rickandmortyapi.com/api/character/avatar/212.jpeg","episode":["https://rickandmortyapi.com/api/episode/16"],"url":"https://rickandmortyapi.com/api/character/212","created":"2017-12-30T14:19:10.419Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:10:02 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/107
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '513'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:11:44 GMT
+      Etag:
+      - W/"201-fbSIqWlAh5Z0OuC3O8aNhKOLK7g"
+      Expires:
+      - Wed, 29 Jan 2020 22:11:44 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6888615
+    body:
+      encoding: UTF-8
+      string: '{"id":107,"name":"Dr. Wong","status":"Alive","species":"Human","type":"","gender":"Female","origin":{"name":"Earth
+        (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"location":{"name":"Earth
+        (Replacement Dimension)","url":"https://rickandmortyapi.com/api/location/20"},"image":"https://rickandmortyapi.com/api/character/avatar/107.jpeg","episode":["https://rickandmortyapi.com/api/episode/24"],"url":"https://rickandmortyapi.com/api/character/107","created":"2017-12-26T12:55:58.449Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:11:44 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/362
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '630'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:11:45 GMT
+      Etag:
+      - W/"276-FGUiL4K0DEvSrE97+U7BcswZ7SE"
+      Expires:
+      - Wed, 29 Jan 2020 22:11:45 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6889028
+    body:
+      encoding: UTF-8
+      string: '{"id":362,"name":"Traflorkian","status":"Alive","species":"Alien","type":"Traflorkian","gender":"unknown","origin":{"name":"unknown","url":""},"location":{"name":"Worldender''s
+        lair","url":"https://rickandmortyapi.com/api/location/4"},"image":"https://rickandmortyapi.com/api/character/avatar/362.jpeg","episode":["https://rickandmortyapi.com/api/episode/11","https://rickandmortyapi.com/api/episode/13","https://rickandmortyapi.com/api/episode/19","https://rickandmortyapi.com/api/episode/21","https://rickandmortyapi.com/api/episode/25"],"url":"https://rickandmortyapi.com/api/character/362","created":"2018-01-10T18:52:08.927Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:11:45 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/67
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '493'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:11:45 GMT
+      Etag:
+      - W/"1ed-oaOzasQcvDpAkDCJ1bD8uAQyoS4"
+      Expires:
+      - Wed, 29 Jan 2020 22:11:45 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6889316
+    body:
+      encoding: UTF-8
+      string: '{"id":67,"name":"Collector","status":"Alive","species":"Alien","type":"Light
+        bulb-Alien","gender":"Male","origin":{"name":"The Menagerie","url":"https://rickandmortyapi.com/api/location/25"},"location":{"name":"The
+        Menagerie","url":"https://rickandmortyapi.com/api/location/25"},"image":"https://rickandmortyapi.com/api/character/avatar/67.jpeg","episode":["https://rickandmortyapi.com/api/episode/29"],"url":"https://rickandmortyapi.com/api/character/67","created":"2017-11-30T11:13:46.785Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:11:45 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/300
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '471'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:11:46 GMT
+      Etag:
+      - W/"1d7-TGIUGnTFfKmFEY+xOqX9edmsRAE"
+      Expires:
+      - Wed, 29 Jan 2020 22:11:46 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6889654
+    body:
+      encoding: UTF-8
+      string: '{"id":300,"name":"Roger","status":"Dead","species":"Human","type":"","gender":"Male","origin":{"name":"Earth
+        (C-137)","url":"https://rickandmortyapi.com/api/location/1"},"location":{"name":"Anatomy
+        Park","url":"https://rickandmortyapi.com/api/location/5"},"image":"https://rickandmortyapi.com/api/character/avatar/300.jpeg","episode":["https://rickandmortyapi.com/api/episode/3"],"url":"https://rickandmortyapi.com/api/character/300","created":"2017-12-31T20:39:35.047Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:11:46 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/26
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '485'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:11:46 GMT
+      Etag:
+      - W/"1e5-UxC9bgsuZpNc9Jwha3Tu47T3L/8"
+      Expires:
+      - Wed, 29 Jan 2020 22:11:46 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '2'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6889836
+    body:
+      encoding: UTF-8
+      string: '{"id":26,"name":"Arthricia","status":"Alive","species":"Alien","type":"Cat-Person","gender":"Female","origin":{"name":"Purge
+        Planet","url":"https://rickandmortyapi.com/api/location/9"},"location":{"name":"Purge
+        Planet","url":"https://rickandmortyapi.com/api/location/9"},"image":"https://rickandmortyapi.com/api/character/avatar/26.jpeg","episode":["https://rickandmortyapi.com/api/episode/20"],"url":"https://rickandmortyapi.com/api/character/26","created":"2017-11-05T08:56:46.165Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:11:47 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/158
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '455'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:13:28 GMT
+      Etag:
+      - W/"1c7-TF6a2GdGad4L8tyrgIz0RnVtSB8"
+      Expires:
+      - Wed, 29 Jan 2020 22:13:28 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6933012
+    body:
+      encoding: UTF-8
+      string: '{"id":158,"name":"Hookah Alien","status":"Alive","species":"Alien","type":"Tuskfish","gender":"unknown","origin":{"name":"unknown","url":""},"location":{"name":"Interdimensional
+        Customs","url":"https://rickandmortyapi.com/api/location/38"},"image":"https://rickandmortyapi.com/api/character/avatar/158.jpeg","episode":["https://rickandmortyapi.com/api/episode/1"],"url":"https://rickandmortyapi.com/api/character/158","created":"2017-12-29T15:53:48.952Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:13:28 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/284
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      - public
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Jan 2020 21:13:28 GMT
+      Etag:
+      - W/"1b9-hMRoejOH1te5RZCRHPBy/UZ67iM"
+      Expires:
+      - Wed, 29 Jan 2020 22:13:28 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '2'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6933245
+    body:
+      encoding: UTF-8
+      string: '{"id":284,"name":"Rick Guilt Rick","status":"unknown","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
+        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/284.jpeg","episode":["https://rickandmortyapi.com/api/episode/28"],"url":"https://rickandmortyapi.com/api/character/284","created":"2017-12-31T19:25:18.205Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:13:29 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/315
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '462'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:06:37 GMT
+      Etag:
+      - W/"1ce-RnTNvDKiAZOGdNICad3aYzOKnOo"
+      Expires:
+      - Wed, 29 Jan 2020 22:06:37 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '412'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6933470
+    body:
+      encoding: UTF-8
+      string: '{"id":315,"name":"Shmlangela Shmlobinson-Shmlower","status":"Alive","species":"Human","type":"","gender":"Female","origin":{"name":"unknown","url":""},"location":{"name":"Interdimensional
+        Cable","url":"https://rickandmortyapi.com/api/location/6"},"image":"https://rickandmortyapi.com/api/character/avatar/315.jpeg","episode":["https://rickandmortyapi.com/api/episode/8"],"url":"https://rickandmortyapi.com/api/character/315","created":"2018-01-05T14:54:37.641Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:13:29 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/322
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '434'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:13:29 GMT
+      Etag:
+      - W/"1b2-GwCb9/h+3AHtVLHw3y+Sgei23jw"
+      Expires:
+      - Wed, 29 Jan 2020 22:13:29 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6933586
+    body:
+      encoding: UTF-8
+      string: '{"id":322,"name":"Simple Rick","status":"Dead","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
+        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/322.jpeg","episode":["https://rickandmortyapi.com/api/episode/28"],"url":"https://rickandmortyapi.com/api/character/322","created":"2018-01-05T15:12:03.933Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:13:29 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/character/97
     body:
       encoding: US-ASCII
       string: ''
@@ -125,11 +1904,11 @@ http_interactions:
       - max-age=3600
       - public
       Date:
-      - Wed, 29 Jan 2020 03:02:03 GMT
+      - Wed, 29 Jan 2020 21:13:30 GMT
       Etag:
-      - W/"1dc-byB7oo4ld7vuhny4n0rBVFe7lVo"
+      - W/"1dc-TEYgQzCtGoqSe4FZd43GePWMZRE"
       Expires:
-      - Wed, 29 Jan 2020 04:02:03 GMT
+      - Wed, 29 Jan 2020 22:13:30 GMT
       Server:
       - Netlify
       X-Powered-By:
@@ -139,16 +1918,17 @@ http_interactions:
       Connection:
       - keep-alive
       X-Nf-Request-Id:
-      - ddcf0879-11ff-482a-b90c-9a8256b8e824-1342478
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6933856
     body:
       encoding: UTF-8
-      string: '{"id":48,"name":"Black Rick","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Citadel
-        of Ricks","url":"https://rickandmortyapi.com/api/location/3"},"image":"https://rickandmortyapi.com/api/character/avatar/48.jpeg","episode":["https://rickandmortyapi.com/api/episode/22","https://rickandmortyapi.com/api/episode/28"],"url":"https://rickandmortyapi.com/api/character/48","created":"2017-11-05T11:15:26.044Z"}'
+      string: '{"id":97,"name":"Gonorrhea","status":"Dead","species":"Disease","type":"","gender":"unknown","origin":{"name":"Anatomy
+        Park","url":"https://rickandmortyapi.com/api/location/5"},"location":{"name":"Anatomy
+        Park","url":"https://rickandmortyapi.com/api/location/5"},"image":"https://rickandmortyapi.com/api/character/avatar/97.jpeg","episode":["https://rickandmortyapi.com/api/episode/3"],"url":"https://rickandmortyapi.com/api/character/97","created":"2017-12-01T12:00:27.028Z"}'
     http_version: 
-  recorded_at: Wed, 29 Jan 2020 03:02:03 GMT
+  recorded_at: Wed, 29 Jan 2020 21:13:30 GMT
 - request:
     method: get
-    uri: https://rickandmortyapi.com/api/character/120
+    uri: https://rickandmortyapi.com/api/character/247
     body:
       encoding: US-ASCII
       string: ''
@@ -167,131 +1947,31 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Content-Length:
-      - '443'
+      - '401'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - max-age=3600
       - public
       Date:
-      - Wed, 29 Jan 2020 03:02:04 GMT
+      - Wed, 29 Jan 2020 21:13:31 GMT
       Etag:
-      - W/"1bb-ECaSoBJVSKo4tvcMjDGAn3tE5Wg"
+      - W/"191-BnkOvDoNRO2UiVk7n73c/Fxnuqw"
       Expires:
-      - Wed, 29 Jan 2020 04:02:04 GMT
+      - Wed, 29 Jan 2020 22:13:31 GMT
       Server:
       - Netlify
       X-Powered-By:
       - Express
       Age:
-      - '0'
+      - '1'
       Connection:
       - keep-alive
       X-Nf-Request-Id:
-      - ddcf0879-11ff-482a-b90c-9a8256b8e824-1342902
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6934035
     body:
       encoding: UTF-8
-      string: '{"id":120,"name":"Evil Summer Clone","status":"Dead","species":"Human","type":"Clone","gender":"Female","origin":{"name":"unknown","url":""},"location":{"name":"Earth
-        (C-137)","url":"https://rickandmortyapi.com/api/location/1"},"image":"https://rickandmortyapi.com/api/character/avatar/120.jpeg","episode":["https://rickandmortyapi.com/api/episode/5"],"url":"https://rickandmortyapi.com/api/character/120","created":"2017-12-26T16:24:02.059Z"}'
+      string: '{"id":247,"name":"Mrs. Poopybutthole","status":"Alive","species":"Poopybutthole","type":"","gender":"Female","origin":{"name":"unknown","url":""},"location":{"name":"unknown","url":""},"image":"https://rickandmortyapi.com/api/character/avatar/247.jpeg","episode":["https://rickandmortyapi.com/api/episode/31"],"url":"https://rickandmortyapi.com/api/character/247","created":"2017-12-30T18:10:48.293Z"}'
     http_version: 
-  recorded_at: Wed, 29 Jan 2020 03:02:04 GMT
-- request:
-    method: get
-    uri: https://rickandmortyapi.com/api/character/140
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Content-Length:
-      - '501'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - max-age=3600
-      - public
-      Date:
-      - Wed, 29 Jan 2020 03:02:04 GMT
-      Etag:
-      - W/"1f5-JkTzH/81WsnMdBW7JRoVzvfrffQ"
-      Expires:
-      - Wed, 29 Jan 2020 04:02:04 GMT
-      Server:
-      - Netlify
-      X-Powered-By:
-      - Express
-      Age:
-      - '2'
-      Connection:
-      - keep-alive
-      X-Nf-Request-Id:
-      - ddcf0879-11ff-482a-b90c-9a8256b8e824-1343027
-    body:
-      encoding: UTF-8
-      string: '{"id":140,"name":"Genital Washer","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"Post-Apocalyptic
-        Earth","url":"https://rickandmortyapi.com/api/location/8"},"location":{"name":"Post-Apocalyptic
-        Earth","url":"https://rickandmortyapi.com/api/location/8"},"image":"https://rickandmortyapi.com/api/character/avatar/140.jpeg","episode":["https://rickandmortyapi.com/api/episode/23"],"url":"https://rickandmortyapi.com/api/character/140","created":"2017-12-27T18:47:44.566Z"}'
-    http_version: 
-  recorded_at: Wed, 29 Jan 2020 03:02:05 GMT
-- request:
-    method: get
-    uri: https://rickandmortyapi.com/api/character/373
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Content-Length:
-      - '447'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - max-age=3600
-      - public
-      Date:
-      - Wed, 29 Jan 2020 03:02:05 GMT
-      Etag:
-      - W/"1bf-Kd2acygIQD+Cuf+1d5dqR4NPX+A"
-      Expires:
-      - Wed, 29 Jan 2020 04:02:05 GMT
-      Server:
-      - Netlify
-      X-Powered-By:
-      - Express
-      Age:
-      - '0'
-      Connection:
-      - keep-alive
-      X-Nf-Request-Id:
-      - ddcf0879-11ff-482a-b90c-9a8256b8e824-1343186
-    body:
-      encoding: UTF-8
-      string: '{"id":373,"name":"Unmuscular Michael","status":"Alive","species":"Human","type":"","gender":"Male","origin":{"name":"unknown","url":""},"location":{"name":"Interdimensional
-        Cable","url":"https://rickandmortyapi.com/api/location/6"},"image":"https://rickandmortyapi.com/api/character/avatar/373.jpeg","episode":["https://rickandmortyapi.com/api/episode/8"],"url":"https://rickandmortyapi.com/api/character/373","created":"2018-01-10T19:22:04.075Z"}'
-    http_version: 
-  recorded_at: Wed, 29 Jan 2020 03:02:05 GMT
+  recorded_at: Wed, 29 Jan 2020 21:13:31 GMT
 recorded_with: VCR 5.0.0

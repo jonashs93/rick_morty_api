@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Character, type: :model do
   subject do
-    VCR.use_cassette('character', record: :all) { Character.find(rand(1..400)) }
+    VCR.use_cassette('character', record: :new_episodes) { Character.find(rand(1..400)) }
   end
 
   it { expect(described_class.superclass).to be ApplicationResource }
@@ -38,7 +38,7 @@ RSpec.describe Character, type: :model do
   describe '#first_episode' do
     let(:first_episode_id) { rand(1..30).to_s }
     let(:first_episode) do
-      VCR.use_cassette('episode', record: :all) { Episode.find(first_episode_id) }
+      VCR.use_cassette('episode', record: :new_episodes) { Episode.find(first_episode_id) }
     end
 
     it 'dynamic episode id' do

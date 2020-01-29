@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://rickandmortyapi.com/api/episode/7
+    uri: https://rickandmortyapi.com/api/episode/5
     body:
       encoding: US-ASCII
       string: ''
@@ -21,18 +21,163 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Content-Length:
-      - '847'
+      - '1142'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - max-age=3600
       - public
       Date:
-      - Wed, 29 Jan 2020 03:02:06 GMT
+      - Wed, 29 Jan 2020 21:08:24 GMT
       Etag:
-      - W/"34f-lKYjmAf3/AGHerJfZoVqY1rNET8"
+      - W/"476-boXDzfE2CG1sL0nLatsDX4NkQfM"
       Expires:
-      - Wed, 29 Jan 2020 04:02:06 GMT
+      - Wed, 29 Jan 2020 22:08:24 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6800566
+    body:
+      encoding: UTF-8
+      string: '{"id":5,"name":"Meeseeks and Destroy","air_date":"January 20, 2014","episode":"S01E05","characters":["https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/38","https://rickandmortyapi.com/api/character/41","https://rickandmortyapi.com/api/character/89","https://rickandmortyapi.com/api/character/116","https://rickandmortyapi.com/api/character/117","https://rickandmortyapi.com/api/character/120","https://rickandmortyapi.com/api/character/175","https://rickandmortyapi.com/api/character/193","https://rickandmortyapi.com/api/character/238","https://rickandmortyapi.com/api/character/242","https://rickandmortyapi.com/api/character/271","https://rickandmortyapi.com/api/character/303","https://rickandmortyapi.com/api/character/326","https://rickandmortyapi.com/api/character/333","https://rickandmortyapi.com/api/character/338","https://rickandmortyapi.com/api/character/343","https://rickandmortyapi.com/api/character/399","https://rickandmortyapi.com/api/character/400"],"url":"https://rickandmortyapi.com/api/episode/5","created":"2017-11-10T12:56:34.236Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:24 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/episode/22
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '2236'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:32 GMT
+      Etag:
+      - W/"8bc-GbWtLh0NepMWmfBez7ButvcI2Ig"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:32 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6804525
+    body:
+      encoding: UTF-8
+      string: '{"id":22,"name":"The Rickshank Rickdemption","air_date":"April 1, 2017","episode":"S03E01","characters":["https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/3","https://rickandmortyapi.com/api/character/4","https://rickandmortyapi.com/api/character/5","https://rickandmortyapi.com/api/character/21","https://rickandmortyapi.com/api/character/22","https://rickandmortyapi.com/api/character/38","https://rickandmortyapi.com/api/character/42","https://rickandmortyapi.com/api/character/47","https://rickandmortyapi.com/api/character/48","https://rickandmortyapi.com/api/character/57","https://rickandmortyapi.com/api/character/69","https://rickandmortyapi.com/api/character/71","https://rickandmortyapi.com/api/character/86","https://rickandmortyapi.com/api/character/94","https://rickandmortyapi.com/api/character/95","https://rickandmortyapi.com/api/character/103","https://rickandmortyapi.com/api/character/150","https://rickandmortyapi.com/api/character/152","https://rickandmortyapi.com/api/character/175","https://rickandmortyapi.com/api/character/200","https://rickandmortyapi.com/api/character/215","https://rickandmortyapi.com/api/character/231","https://rickandmortyapi.com/api/character/240","https://rickandmortyapi.com/api/character/274","https://rickandmortyapi.com/api/character/285","https://rickandmortyapi.com/api/character/286","https://rickandmortyapi.com/api/character/294","https://rickandmortyapi.com/api/character/295","https://rickandmortyapi.com/api/character/330","https://rickandmortyapi.com/api/character/338","https://rickandmortyapi.com/api/character/344","https://rickandmortyapi.com/api/character/378","https://rickandmortyapi.com/api/character/380","https://rickandmortyapi.com/api/character/385","https://rickandmortyapi.com/api/character/389","https://rickandmortyapi.com/api/character/461","https://rickandmortyapi.com/api/character/462","https://rickandmortyapi.com/api/character/463","https://rickandmortyapi.com/api/character/464","https://rickandmortyapi.com/api/character/465","https://rickandmortyapi.com/api/character/466"],"url":"https://rickandmortyapi.com/api/episode/22","created":"2017-11-10T12:56:35.983Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:33 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/episode/18
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '1437'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:08:41 GMT
+      Etag:
+      - W/"59d-9ttfO37+xFBaDZFqJuHRQdsOvl4"
+      Expires:
+      - Wed, 29 Jan 2020 22:08:41 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6808030
+    body:
+      encoding: UTF-8
+      string: '{"id":18,"name":"Big Trouble in Little Sanchez","air_date":"September
+        13, 2015","episode":"S02E07","characters":["https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/3","https://rickandmortyapi.com/api/character/4","https://rickandmortyapi.com/api/character/5","https://rickandmortyapi.com/api/character/40","https://rickandmortyapi.com/api/character/55","https://rickandmortyapi.com/api/character/66","https://rickandmortyapi.com/api/character/131","https://rickandmortyapi.com/api/character/132","https://rickandmortyapi.com/api/character/146","https://rickandmortyapi.com/api/character/148","https://rickandmortyapi.com/api/character/163","https://rickandmortyapi.com/api/character/178","https://rickandmortyapi.com/api/character/180","https://rickandmortyapi.com/api/character/181","https://rickandmortyapi.com/api/character/240","https://rickandmortyapi.com/api/character/272","https://rickandmortyapi.com/api/character/310","https://rickandmortyapi.com/api/character/353","https://rickandmortyapi.com/api/character/354","https://rickandmortyapi.com/api/character/358","https://rickandmortyapi.com/api/character/374","https://rickandmortyapi.com/api/character/386","https://rickandmortyapi.com/api/character/387","https://rickandmortyapi.com/api/character/453"],"url":"https://rickandmortyapi.com/api/episode/18","created":"2017-11-10T12:56:35.569Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:08:41 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/episode/4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '809'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:09:12 GMT
+      Etag:
+      - W/"329-wPcnvH7FkBNtH7hh+8CqkJDDTqc"
+      Expires:
+      - Wed, 29 Jan 2020 22:09:12 GMT
       Server:
       - Netlify
       X-Powered-By:
@@ -42,10 +187,154 @@ http_interactions:
       Connection:
       - keep-alive
       X-Nf-Request-Id:
-      - ddcf0879-11ff-482a-b90c-9a8256b8e824-1343645
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6822033
     body:
       encoding: UTF-8
-      string: '{"id":7,"name":"Raising Gazorpazorp","air_date":"March 10, 2014","episode":"S01E07","characters":["https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/3","https://rickandmortyapi.com/api/character/4","https://rickandmortyapi.com/api/character/5","https://rickandmortyapi.com/api/character/59","https://rickandmortyapi.com/api/character/151","https://rickandmortyapi.com/api/character/168","https://rickandmortyapi.com/api/character/211","https://rickandmortyapi.com/api/character/230","https://rickandmortyapi.com/api/character/258","https://rickandmortyapi.com/api/character/329","https://rickandmortyapi.com/api/character/376","https://rickandmortyapi.com/api/character/401"],"url":"https://rickandmortyapi.com/api/episode/7","created":"2017-11-10T12:56:34.441Z"}'
+      string: '{"id":4,"name":"M. Night Shaym-Aliens!","air_date":"January 13, 2014","episode":"S01E04","characters":["https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/38","https://rickandmortyapi.com/api/character/87","https://rickandmortyapi.com/api/character/175","https://rickandmortyapi.com/api/character/179","https://rickandmortyapi.com/api/character/181","https://rickandmortyapi.com/api/character/191","https://rickandmortyapi.com/api/character/239","https://rickandmortyapi.com/api/character/241","https://rickandmortyapi.com/api/character/270","https://rickandmortyapi.com/api/character/337","https://rickandmortyapi.com/api/character/338"],"url":"https://rickandmortyapi.com/api/episode/4","created":"2017-11-10T12:56:34.129Z"}'
     http_version: 
-  recorded_at: Wed, 29 Jan 2020 03:02:06 GMT
+  recorded_at: Wed, 29 Jan 2020 21:09:12 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/episode/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '1078'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:01:48 GMT
+      Etag:
+      - W/"436-ikAUNHB7SSXt+1Wx7dfr10qOu3E"
+      Expires:
+      - Wed, 29 Jan 2020 22:01:48 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '495'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6843104
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"name":"Pilot","air_date":"December 2, 2013","episode":"S01E01","characters":["https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/35","https://rickandmortyapi.com/api/character/38","https://rickandmortyapi.com/api/character/62","https://rickandmortyapi.com/api/character/92","https://rickandmortyapi.com/api/character/127","https://rickandmortyapi.com/api/character/144","https://rickandmortyapi.com/api/character/158","https://rickandmortyapi.com/api/character/175","https://rickandmortyapi.com/api/character/179","https://rickandmortyapi.com/api/character/181","https://rickandmortyapi.com/api/character/239","https://rickandmortyapi.com/api/character/249","https://rickandmortyapi.com/api/character/271","https://rickandmortyapi.com/api/character/338","https://rickandmortyapi.com/api/character/394","https://rickandmortyapi.com/api/character/395","https://rickandmortyapi.com/api/character/435"],"url":"https://rickandmortyapi.com/api/episode/1","created":"2017-11-10T12:56:33.798Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:10:03 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/episode/28
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '3291'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:11:47 GMT
+      Etag:
+      - W/"cdb-LzLU+b5N9JO6xAt9+Km76/udEbo"
+      Expires:
+      - Wed, 29 Jan 2020 22:11:47 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6890316
+    body:
+      encoding: UTF-8
+      string: '{"id":28,"name":"The Ricklantis Mixup","air_date":"September 10, 2017","episode":"S03E07","characters":["https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/4","https://rickandmortyapi.com/api/character/8","https://rickandmortyapi.com/api/character/18","https://rickandmortyapi.com/api/character/22","https://rickandmortyapi.com/api/character/27","https://rickandmortyapi.com/api/character/43","https://rickandmortyapi.com/api/character/44","https://rickandmortyapi.com/api/character/48","https://rickandmortyapi.com/api/character/56","https://rickandmortyapi.com/api/character/61","https://rickandmortyapi.com/api/character/72","https://rickandmortyapi.com/api/character/73","https://rickandmortyapi.com/api/character/74","https://rickandmortyapi.com/api/character/78","https://rickandmortyapi.com/api/character/85","https://rickandmortyapi.com/api/character/86","https://rickandmortyapi.com/api/character/118","https://rickandmortyapi.com/api/character/123","https://rickandmortyapi.com/api/character/135","https://rickandmortyapi.com/api/character/143","https://rickandmortyapi.com/api/character/165","https://rickandmortyapi.com/api/character/180","https://rickandmortyapi.com/api/character/187","https://rickandmortyapi.com/api/character/206","https://rickandmortyapi.com/api/character/220","https://rickandmortyapi.com/api/character/229","https://rickandmortyapi.com/api/character/233","https://rickandmortyapi.com/api/character/235","https://rickandmortyapi.com/api/character/267","https://rickandmortyapi.com/api/character/278","https://rickandmortyapi.com/api/character/281","https://rickandmortyapi.com/api/character/283","https://rickandmortyapi.com/api/character/284","https://rickandmortyapi.com/api/character/287","https://rickandmortyapi.com/api/character/288","https://rickandmortyapi.com/api/character/289","https://rickandmortyapi.com/api/character/291","https://rickandmortyapi.com/api/character/292","https://rickandmortyapi.com/api/character/322","https://rickandmortyapi.com/api/character/325","https://rickandmortyapi.com/api/character/328","https://rickandmortyapi.com/api/character/345","https://rickandmortyapi.com/api/character/366","https://rickandmortyapi.com/api/character/367","https://rickandmortyapi.com/api/character/472","https://rickandmortyapi.com/api/character/473","https://rickandmortyapi.com/api/character/392","https://rickandmortyapi.com/api/character/474","https://rickandmortyapi.com/api/character/475","https://rickandmortyapi.com/api/character/476","https://rickandmortyapi.com/api/character/477","https://rickandmortyapi.com/api/character/478","https://rickandmortyapi.com/api/character/479","https://rickandmortyapi.com/api/character/480","https://rickandmortyapi.com/api/character/481","https://rickandmortyapi.com/api/character/482","https://rickandmortyapi.com/api/character/483","https://rickandmortyapi.com/api/character/484","https://rickandmortyapi.com/api/character/485","https://rickandmortyapi.com/api/character/486","https://rickandmortyapi.com/api/character/487","https://rickandmortyapi.com/api/character/488","https://rickandmortyapi.com/api/character/489"],"url":"https://rickandmortyapi.com/api/episode/28","created":"2017-11-10T12:56:36.618Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:11:47 GMT
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/episode/21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '1570'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 21:13:31 GMT
+      Etag:
+      - W/"622-qyxIcHWwE8KbM69q4ol8aTl1u3c"
+      Expires:
+      - Wed, 29 Jan 2020 22:13:31 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '1'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - 25a7b2bf-1419-410f-ae6f-b43d2fb26a38-6934494
+    body:
+      encoding: UTF-8
+      string: '{"id":21,"name":"The Wedding Squanchers","air_date":"October 4, 2015","episode":"S02E10","characters":["https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/3","https://rickandmortyapi.com/api/character/4","https://rickandmortyapi.com/api/character/5","https://rickandmortyapi.com/api/character/23","https://rickandmortyapi.com/api/character/47","https://rickandmortyapi.com/api/character/75","https://rickandmortyapi.com/api/character/102","https://rickandmortyapi.com/api/character/130","https://rickandmortyapi.com/api/character/131","https://rickandmortyapi.com/api/character/133","https://rickandmortyapi.com/api/character/194","https://rickandmortyapi.com/api/character/199","https://rickandmortyapi.com/api/character/203","https://rickandmortyapi.com/api/character/240","https://rickandmortyapi.com/api/character/244","https://rickandmortyapi.com/api/character/256","https://rickandmortyapi.com/api/character/261","https://rickandmortyapi.com/api/character/308","https://rickandmortyapi.com/api/character/311","https://rickandmortyapi.com/api/character/331","https://rickandmortyapi.com/api/character/344","https://rickandmortyapi.com/api/character/358","https://rickandmortyapi.com/api/character/362","https://rickandmortyapi.com/api/character/379","https://rickandmortyapi.com/api/character/55","https://rickandmortyapi.com/api/character/309","https://rickandmortyapi.com/api/character/454"],"url":"https://rickandmortyapi.com/api/episode/21","created":"2017-11-10T12:56:35.875Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 21:13:32 GMT
 recorded_with: VCR 5.0.0
