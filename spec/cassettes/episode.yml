@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://rickandmortyapi.com/api/episode/7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '847'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - max-age=3600
+      - public
+      Date:
+      - Wed, 29 Jan 2020 03:02:06 GMT
+      Etag:
+      - W/"34f-lKYjmAf3/AGHerJfZoVqY1rNET8"
+      Expires:
+      - Wed, 29 Jan 2020 04:02:06 GMT
+      Server:
+      - Netlify
+      X-Powered-By:
+      - Express
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Nf-Request-Id:
+      - ddcf0879-11ff-482a-b90c-9a8256b8e824-1343645
+    body:
+      encoding: UTF-8
+      string: '{"id":7,"name":"Raising Gazorpazorp","air_date":"March 10, 2014","episode":"S01E07","characters":["https://rickandmortyapi.com/api/character/1","https://rickandmortyapi.com/api/character/2","https://rickandmortyapi.com/api/character/3","https://rickandmortyapi.com/api/character/4","https://rickandmortyapi.com/api/character/5","https://rickandmortyapi.com/api/character/59","https://rickandmortyapi.com/api/character/151","https://rickandmortyapi.com/api/character/168","https://rickandmortyapi.com/api/character/211","https://rickandmortyapi.com/api/character/230","https://rickandmortyapi.com/api/character/258","https://rickandmortyapi.com/api/character/329","https://rickandmortyapi.com/api/character/376","https://rickandmortyapi.com/api/character/401"],"url":"https://rickandmortyapi.com/api/episode/7","created":"2017-11-10T12:56:34.441Z"}'
+    http_version: 
+  recorded_at: Wed, 29 Jan 2020 03:02:06 GMT
+recorded_with: VCR 5.0.0
