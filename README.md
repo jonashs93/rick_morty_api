@@ -1,6 +1,6 @@
 # README
 
-Este projeto importa dados da API https://swapi.co/ e lista os registros utilizando para desenvolvimento do client-side VueJS e Ruby on Rails para server-side.
+Este projeto desenvolvido utilizando Ruby on Rails disponibiliza um endpoint para consultar dados da Rick and Morty API.
 
 # Ricy and Morty API
 
