@@ -2,7 +2,7 @@
 
 Este projeto desenvolvido utilizando Ruby on Rails disponibiliza um endpoint para consultar dados da Rick and Morty API.
 
-# Ricy and Morty API
+# Rick and Morty API
 
 ### Dependências
 ------------
