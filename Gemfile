@@ -7,7 +7,7 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 gem 'sqlite3', '~> 1.4'
 gem 'puma', '~> 4.1'
 gem 'bootsnap', '>= 1.4.2', require: false
-gem 'activeresource', '5.1.0'
+gem 'activeresource', '5.1.1'
 
 group :test do
   gem 'rspec-rails', '3.9.0'
